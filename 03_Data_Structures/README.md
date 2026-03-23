@@ -45,6 +45,15 @@ Examples:
 - Searching for an item in a list
 - Deleting an item from the middle of a list
 
+`O(log n)` = **Logarithmic Time**
+
+As the data grows, the time grows very slowly.
+Instead of checking every item one by one, it keeps reducing the problem size.
+
+Examples:
+- Binary search in a sorted list
+- Finding something by repeatedly dividing the data in half
+
 `O(1)*` = **Amortized Constant Time**
 
 Most of the time, the operation takes the **same** amount of time.

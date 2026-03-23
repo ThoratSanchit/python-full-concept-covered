@@ -25,6 +25,34 @@ Data structures are containers that organize and store data efficiently. Python 
 
 *Amortized - occasionally needs to resize
 
+### What These Mean
+
+`O(1)` = **Constant Time**
+
+No matter how much data you have, the time stays the **same**.
+
+Examples:
+- Accessing the last item of a list: `my_list[-1]`
+- Looking up a value in a dictionary by key: `my_dict["name"]`
+
+`O(n)` = **Linear Time**
+
+If the data gets bigger, the time also grows.
+If you have 10 items, it checks about 10 items.
+If you have 1000 items, it may check about 1000 items.
+
+Examples:
+- Searching for an item in a list
+- Deleting an item from the middle of a list
+
+`O(1)*` = **Amortized Constant Time**
+
+Most of the time, the operation takes the **same** amount of time.
+But sometimes Python needs to resize the list, so one operation can take longer.
+
+Example:
+- `list.append()` is usually `O(1)`, but sometimes resizing happens
+
 ### When to Use What?
 
 - **List**: Ordered data, frequent modifications

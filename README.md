@@ -13,12 +13,12 @@
 | 03 | [Data Structures](./03_Data_Structures/) | Ready |
 | 04 | [Functions](./04_Functions/) | Ready |
 | 05 | [Functional Programming](./05_Functional_Programming/) | Ready |
-| 06 | Strings | Coming Soon |
-| 07 | Modules and Packages | Coming Soon |
-| 08 | File Handling | Coming Soon |
-| 09 | Exception Handling | Coming Soon |
-| 10 | OOP (Object Oriented Programming) | Coming Soon |
-| 11 | Advanced Python | Coming Soon |
+| 06 | [Strings](./06_Strings/) | Ready |
+| 07 | [Modules and Packages](./07_Modules_and_Packages/) | Ready |
+| 08 | [File Handling](./08_File_Handling/) | Ready |
+| 09 | [Exception Handling](./09_Exception_Handling/) | Ready |
+| 10 | [OOP (Object Oriented Programming)](./10_OOP/) | Ready |
+| 11 | [Advanced Python](./11_Advanced_Python/) | Ready |
 | 12 | Standard Libraries | Coming Soon |
 | 13 | APIs and HTTP | Coming Soon |
 | 14 | Database | Coming Soon |
@@ -47,16 +47,17 @@
 python-learning/
 ├── README.md (this file)
 ├── 01_Python_Basics/
-│   └── README.md
 ├── 02_Control_Flow/
-│   └── README.md
 ├── 03_Data_Structures/
-│   └── README.md
 ├── 04_Functions/
-│   └── README.md
 ├── 05_Functional_Programming/
-│   └── README.md
-└── ... (more topics)
+├── 06_Strings/
+├── 07_Modules_and_Packages/
+├── 08_File_Handling/
+├── 09_Exception_Handling/
+├── 10_OOP/
+├── 11_Advanced_Python/
+└── ... (more topics coming)
 ```
 
 ---
